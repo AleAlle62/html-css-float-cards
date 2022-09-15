@@ -22,7 +22,9 @@
 
 
 .container{
-    clear: both;
+    content: '';
+	display: table;
+	clear: both;
 }
 
 /* primo box */
@@ -80,7 +82,7 @@
 /* secondo box */
 
 .secondobox{
-    position: absolute;
+    position: relative;
     background-color: black;
     width: 300px;
     height: 100px;
@@ -133,6 +135,7 @@
 
 
 .terzobox{
+    float: left;
     background-color: black;
     width: 300px;
     height: 100px;
@@ -140,8 +143,6 @@
     margin-left: 100px;
     margin-right: 100px;
     display: inline-block;
-    float: left;
-    clear: both;
 }
 
 .immagine3{
@@ -179,3 +180,53 @@
     margin-top: 1px;
 }
 
+/* fine terzo box */
+
+/* inizio quarto box */
+
+.quartobox{
+    float: left;
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.immagine4{
+    width: 90px;
+    height: 100px;
+    float: left;
+    display: inline-block;
+}
+
+.robertolorem{
+    float: left;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 22px;
+    margin: 10px;
+    display: block;
+}
+
+
+.project{
+    float: left;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 1px;
+}
+
+.email4{
+    float: left;
+    color: rgb(12, 200, 242);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 1px;
+}
