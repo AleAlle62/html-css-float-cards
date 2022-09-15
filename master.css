@@ -15,21 +15,33 @@
 }
 
 
-.primobox{
+.marco{
     background-color: black;
-    width: 250px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
     display: inline-block;
+    background-image: url(../html-css-float-cards/img/male1.png);
+    background-size: cover;
+    background-size: 80px;
+}
+
+.primobox{
+    background-color: black;
+    height: 80px;
+    width: 190px;
+    display: inline-block;
+    margin-left: -105px;
+    
 }
 
 
 
 
-.marco{
+/* .marco{
     height: 10%;
     width: 10%;
     display: inline-block;
-}
+} */
