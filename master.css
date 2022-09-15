@@ -1,0 +1,15 @@
+.titolo{
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(218, 72, 96);
+    font-size: 30px;
+    text-align: center;
+}
+
+.lorem{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
