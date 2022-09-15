@@ -1,3 +1,9 @@
+* {
+	/* margin: 0;
+	padding: 0; */
+	box-sizing: border-box;
+}
+
 .titolo{
     font-family: 'Fredoka', sans-serif;
     color: rgb(218, 72, 96);
@@ -15,33 +21,23 @@
 }
 
 
-.marco{
+.container{
+    clear: both;
+}
+
+
+.primobox{
     background-color: black;
-    width: 100px;
+    width: 300px;
     height: 80px;
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
     display: inline-block;
-    background-image: url(../html-css-float-cards/img/male1.png);
-    background-size: cover;
-    background-size: 80px;
+    float: left;
 }
 
-.primobox{
-    background-color: black;
+.immagine1{
+    width: 80px;
     height: 80px;
-    width: 190px;
-    display: inline-block;
-    margin-left: -105px;
-    
 }
-
-
-
-
-/* .marco{
-    height: 10%;
-    width: 10%;
-    display: inline-block;
-} */
