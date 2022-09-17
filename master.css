@@ -27,18 +27,28 @@
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    background-color: black;
     margin-top: 20px;
 }
 
+a{
+    float: left;
+}
+
+
+.testo{
+    padding-top: 5%;
+}
+
+
 h3 {
     color: white;
-    text-align: left;
+    float: left;
 }
 
 p {
     color: white;
     text-align: left;
+    float: left;
 }
 
 img {
@@ -48,9 +58,10 @@ img {
 }
 
 .box {
+    margin-top: 20px;
+    margin-left: 15px;
     background-color: black;
     width: calc(33% - 1rem);
     float: left;
     box-shadow: 5px 15px 10px grey;
 }
-
